@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll to Replace</title>
+<style>
+  body {
+    height: 2000px; /* Just for demonstration purpose to enable scrolling */
+  }
+  .containerl {
+    height: 1000px; /* Just for demonstration purpose to enable scrolling */
+    position: fixed;
+    top: 0;
+    left: 10px;
+  }
+  #div2 {
+    display: none; /* Initially hide the second div */
+  }
+  
+   @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  
+
+  h2 span {
+    display: inline-block;
+    animation: slideIn 0.5s ease forwards;
+  }
+</style>
+</head>
+<body>
+
+
+
+   <li class="single-work-item" data-scroll>
+   <a href="https://luxury-hotel.pages.dev/2" class="item-click" data-cursor-text="utree hotel webb" data-background-color="#0619c7">
+            <div class="thumb cycle-images-parent">
+                  <div class="overlay overlay-image cycle-images">
+                        <img class="overlay single-image lazy active" src="./img/utree.jpe" data-src="./img/utree.jpe" width="921" height="921" data-sizes="100w" alt="utree hotel webb">
+                        <img class="overlay single-image lazy" src="./img/utree.jpe" data-src="./img/utree.jpe" width="921" height="921" data-sizes="100w" alt="utree hotel webb">
+                        <img class="overlay single-image lazy" src="./img/utree.jpe" data-src="./img/utree.jpe" width="921" height="921" data-sizes="100w" alt="utree hotel webb">
+                     </div>
+                        </div>
+            <h4>Utree Hotel</h4>
+            <div class="tags">
+                  
+                  <span>Digital & Web</span>
+               </div>
+            </a></li>                    
+
+
+
+
+
+
+
+
+
+
+<section class="section theme-dark grid-work grid-hover data-change-color-section" data-scroll-section>
+   <div class="container">
+      <div class="row">
+         <div class="flex-col">
+            <ul class="">
+                                        <li class="single-work-item" data-scroll>
+   <a href="#" style="pointer-events: none;" class="item-click" data-cursor-text="Harry Wright" data-background-color="#F70509">
+            <div class="thumb">
+                           <div class="overlay overlay-video playpauze">
+            <video class="overlay" src="../../media/pages/work/harry-wright/d83948854a-1701438027/harry_wright_icon_animation_1080x1080.mp4" loop muted playsinline></video>
+         </div>
+                                 </div>
+            <h4>Harry Wright</h4>
+            <div class="tags">
+                  <span>Brand Strategy & Voice</span>
+                  <span>Branding & Design</span>
+                  <span>Digital & Web</span>
+                  <span>Content & Campaigns</span>
+               </div>
+            </a></li>                                           <li class="single-work-item" data-scroll>
+   <a href="#" style="pointer-events: none;" class="item-click" data-cursor-text="Sorin" data-background-color="#42f2f5">
+            <div class="thumb">
+                           <div class="overlay overlay-video playpauze">
+            <video class="overlay" src="../../media/pages/work/sorin/3213c37db5-1689424626/sorine_logo_aimation_thumbnail_20230616.mp4" loop muted playsinline></video>
+         </div>
+                                 </div>
+            <h4>Sorin</h4>
+            <div class="tags">
+                  <span>Brand Strategy & Voice</span>
+                  <span>Branding & Design</span>
+                  <span>Digital & Web</span>
+               </div>
+            </a></li>                                        <li class="single-work-item" data-scroll>
+   <a href="#" style="pointer-events: none;" class="item-click" data-cursor-text="Board Riders Wipeout Club" >
+            <div class="thumb cycle-images-parent">
+                  <div class="overlay overlay-image cycle-images">
+                        <img class="overlay single-image lazy active" src="../../media/pages/work/board-riders-wipeout-club/dd1dcc1091-1676519520/brwc-thumb-06-basecreate-144x-q72.jpg" data-src="https://www.basecreate.com/media/pages/work/board-riders-wipeout-club/dd1dcc1091-1676519520/brwc-thumb-06-basecreate-1440x-q72.jpg" width="1440" height="1440" data-sizes="100w" alt="Board Riders Wipeout Club Thumbnail">
+                     </div>
+                        </div>
+            <h4>Board Riders Wipeout Club</h4>
+            <div class="tags">
+                  <span>Brand Strategy & Voice</span>
+                  <span>Branding & Design</span>
+                  <span>Digital & Web</span>
+                  <span>Content & Campaigns</span>
+               </div>
+            </a></li>                              <li class="single-work-item" data-scroll>
+   <a href="#" style="pointer-events: none;" class="item-click" data-cursor-text="The MOD" data-background-color="#B8A3F2">
+            <div class="thumb cycle-images-parent">
+                  <div class="overlay overlay-image cycle-images">
+                        <img class="overlay single-image lazy active" src="../../media/pages/work/the-mod/fc19743618-1676519521/the-mod-property-brand-creation-brand-identity-key-visual-921x921-basecreate-144x-q72.jpg" data-src="https://www.basecreate.com/media/pages/work/the-mod/fc19743618-1676519521/the-mod-property-brand-creation-brand-identity-key-visual-921x921-basecreate-1440x-q72.jpg" width="921" height="921" data-sizes="100w" alt="The MOD Thumbnail">
+                        <img class="overlay single-image lazy" src="../../media/pages/work/the-mod/ea20c259a2-1676519521/themod-website921x921-144x-q72.jpg" data-src="https://www.basecreate.com/media/pages/work/the-mod/ea20c259a2-1676519521/themod-website921x921-1440x-q72.jpg" width="879" height="879" data-sizes="100w" alt="The MOD Thumbnail">
+                        <img class="overlay single-image lazy" src="../../media/pages/work/the-mod/7820442d4d-1676519521/the-mod-property-brand-creation-brand-identity-brand-materials-namecard-921x921-basecreate-144x-q72" data-src="https://www.basecreate.com/media/pages/work/the-mod/7820442d4d-1676519521/the-mod-property-brand-creation-brand-identity-brand-materials-namecard-921x921-basecreate-1440x-q72.jpg" width="921" height="921" data-sizes="100w" alt="The MOD Thumbnail">
+                     </div>
+                        </div>
+            <h4>The MOD</h4>
+            <div class="tags">
+                  <span>Brand Strategy & Voice</span>
+                  <span>Branding & Design</span>
+                  <span>Digital & Web</span>
+               </div>
+            </a></li>                                                       <li class="single-work-item" data-scroll>
+   <a href="#" style="pointer-events: none;" class="item-click" data-cursor-text="Make it feel right" data-background-color="#237a3b">
+            <div class="thumb">
+                           <div class="overlay overlay-video playpauze">
+            <video class="overlay" src="../../media/pages/work/make-it-feel-right/dda38e3cc0-1681706263/mifr-thumbnail-921x921-1.mp4" loop muted playsinline></video>
+         </div>
+                                 </div>
+            <h4>Make it feel right</h4>
+            <div class="tags">
+                  <span>Brand Strategy & Voice</span>
+                  <span>Branding & Design</span>
+                  <span>Digital & Web</span>
+                  <span>Content & Campaigns</span>
+               </div>
+            </a></li>                                                                      <li class="single-work-item" data-scroll>
+   <a href="#" style="pointer-events: none;" class="item-click" data-cursor-text="Dehres" data-background-color="#052afa">
+            <div class="thumb cycle-images-parent">
+                  <div class="overlay overlay-image cycle-images">
+                        <img class="overlay single-image lazy active" src="../../media/pages/work/dehres/9f60ecf462-1676519511/dehres-jewellery-brand-activation-basecreate-thumbnail-144x-q72.jpg" data-src="https://www.basecreate.com/media/pages/work/dehres/9f60ecf462-1676519511/dehres-jewellery-brand-activation-basecreate-thumbnail-1440x-q72.jpg" width="921" height="921" data-sizes="100w" alt="Dehres Thumbnail">
+                        <img class="overlay single-image lazy" src="../../media/pages/work/dehres/45e0b2d9f0-1676519511/dehres-jewellery-brand-refresh-basecreate-thumbnail-144x-q72.jpg" data-src="https://www.basecreate.com/media/pages/work/dehres/45e0b2d9f0-1676519511/dehres-jewellery-brand-refresh-basecreate-thumbnail-1440x-q72.jpg" width="921" height="921" data-sizes="100w" alt="Dehres Thumbnail">
+                        <img class="overlay single-image lazy" src="../../media/pages/work/dehres/d689b71c91-1676519511/dehres-jewellery-marketing-communications-basecreate-thumbnail-144x-q72.jpg" data-src="https://www.basecreate.com/media/pages/work/dehres/d689b71c91-1676519511/dehres-jewellery-marketing-communications-basecreate-thumbnail-1440x-q72.jpg" width="921" height="921" data-sizes="100w" alt="Dehres Thumbnail">
+                     </div>
+                        </div>
+            <h4>Dehres</h4>
+            <div class="tags">
+                  <span>Brand Strategy & Voice</span>
+                  <span>Branding & Design</span>
+                  <span>Digital & Web</span>
+               </div>
+            </a></li>                                                                                      
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <svg width="66" height="49" viewBox="0 0 62 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M61.17 13.95C61.17 15.86 60.78 17.73 60.01 19.54C59.24 21.36 57.99 23 56.26 24.45C57.99 25.91 59.24 27.55 60.01 29.4C60.78 31.24 61.17 33.1 61.17 34.96C61.17 37.51 60.74 39.66 59.87 41.41C59.01 43.16 57.85 44.58 56.39 45.67C54.93 46.76 53.23 47.56 51.27 48.06C49.31 48.56 47.27 48.81 45.13 48.81H0.309998V0.1H45.13C47.27 0.1 49.31 0.35 51.27 0.85C53.22 1.35 54.93 2.15 56.39 3.24C57.84 4.33 59 5.75 59.87 7.5C60.73 9.25 61.17 11.4 61.17 13.95ZM44.87 20.02C46.6 20.02 48.05 19.5 49.24 18.45C50.42 17.4 51.01 16.11 51.01 14.56C51.01 13.01 50.45 11.72 49.34 10.81C48.23 9.9 46.85 9.45 45.21 9.45H10.48V20.02H44.87V20.02ZM10.48 28.96V39.47H45.34C46.89 39.47 48.22 39.03 49.33 38.14C50.44 37.25 51 35.95 51 34.22C51 32.63 50.41 31.35 49.23 30.4C48.05 29.45 46.48 28.97 44.52 28.97H10.47L10.48 28.96Z" fill="black"/>
+</svg>
+                  <svg id="scrollDisappearSvg1" width="52" height="49" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 57.5 0 L 57.5 25.4 L 12.5 25.4 L 12.5 0 L 0 0 L 0 70 L 12.5 70 L 12.5 37.9 L 57.5 37.9 L 57.5 70 L 70 70 L 70 0 L 57.5 0 Z" vector-effect="non-scaling-stroke"/></g></svg>
+                  
+                  
+                  
+                  
+                  <svg id="scrollDisappearSvg2"width="12.5" height="45" viewBox="0 0 12.5 70" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="8pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 12.5 70 L 12.5 0 L 0 0 L 0 70 L 12.5 70 Z" vector-effect="non-scaling-stroke"/></g></svg>
+                  
+                  
+                  <svg id="scrollDisappearSvg3" width="70" height="70" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 35 12.5 L 70 12.5 L 70 0 L 35 0 C 15.7 0 0 15.7 0 35 C 0 54.3 15.7 70 35 70 L 70 70 L 70 31.6 L 35 31.6 L 35 44.1 L 57.5 44.1 L 57.5 57.5 L 35 57.5 C 22.6 57.5 12.5 47.4 12.5 35 C 12.5 22.6 22.6 12.5 35 12.5 Z" vector-effect="non-scaling-stroke"/></g></svg>
+                  
+                 <svg id="scrollDisappearSvg4"  width="12.5" height="45" viewBox="0 0 12.5 70" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="8pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 12.5 70 L 12.5 0 L 0 0 L 0 70 L 12.5 70 Z" vector-effect="non-scaling-stroke"/></g></svg>
+                  
+                  
+                  
+                  
+        <svg id="scrollDisappearSvg5"  width="65" height="70" viewBox="0 0 69.9 70" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 0 0 L 0 12.5 L 28.7 12.5 L 28.7 70 L 41.2 70 L 41.2 12.5 L 69.9 12.5 L 69.9 0 L 0 0 Z" vector-effect="non-scaling-stroke"/></g></svg>  
+        
+        
+        <svg id="scrollDisappearSvg6"  width="64" height="70" viewBox="0 0 71.4 70" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 65 57.5 L 35.7 0 L 6.4 57.5 L 0 70 L 14 70 L 20.4 57.5 L 35.7 27.5 L 51 57.5 L 57.4 70 L 71.4 70 L 65 57.5 Z" vector-effect="non-scaling-stroke"/></g></svg>
+        
+        
+        
+        
+        
+        <svg id="scrollDisappearSvg7"  width="57.7" height="70" viewBox="0 0 57.7 70" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 12.5 48.9 L 12.5 0 L 0 0 L 0 47.7 C 0 51.2 0.8 54.5 2.3 57.5 C 4.4 61.9 8 65.5 12.4 67.7 C 15.4 69.2 18.7 70 22.2 70 L 57.7 70 L 57.7 57.5 L 21 57.4 C 16.6 56.8 13.1 53.3 12.5 48.9 Z" vector-effect="non-scaling-stroke"/></g></svg>        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                  
+                  
+ <!-- <!-- <!-- <!-- <!-- <!-- <!-- <!--  --> --> --> --> --> --> --> -->                 
+
+    <section class="section theme-dark address-bar data-change-color-section" data-scroll-section>
+   <div class="container">
+      <div class="row">
+         <div class="flex-col">
+            <div class="address-list">
+                              <div class="single-address-list  visible" data-location="HK">
+                 <p><strong>Bhigital</strong></p>
+               <!--     <p class="address">
+                                          <span>15/F The Hennessy</span>      
+                                          <span>256 Hennessy Road</span>      
+                                          <span>Wan Chai, Hong Kong</span>      
+                                       </p> -->
+                                    <p class="phone">
+                                                               <a href="tel:+23409034440271">+234 90344 0271</a>   
+                        
+                                                               <a href="tel:+23409123320789">+234 91233 0789</a>   
+                        
+                        
+                                             
+                                             
+                                       </p>
+                    
+                                    <p>
+                     <a href="mailto: bhigitalagency@gmail.com">bhigitalagency@gmail.com</a>     
+                  </p>
+                    
+               </div>
+                              <div class="single-address-list toggle-fade " data-location="FR">
+                  <p><strong>BaseCreate</strong></p>
+                  <p class="address">
+                                          <span>Cloudeau, Ozolles 71120</span>      
+                                          <span>Saône-et-Loire</span>      
+                                          <span>France</span>      
+                                       </p>
+                                    <p class="phone">
+                                                               <a href="tel:+33977217300">+33 9 77 21 73 00</a>   
+                        
+                                       </p>
+                    
+                                    <p>
+                     <a href="mailto:fr@basecreate.com">fr@basecreate.com</a>     
+                  </p>
+                    
+               </div>
+                              <div class="single-address-list toggle-fade " data-location="DE">
+                  <p><strong>BaseCreate</strong></p>
+                  <p class="address">
+                                          <span>Duesseldorfer Strasse 181</span>      
+                                          <span>40545 Duesseldorf</span>      
+                                          <span>Germany</span>      
+                                       </p>
+                                    <p class="phone">
+                                                               <a href="tel:+49(700)43295263">+49 (700) 43 29 5263</a>   
+                        
+                                       </p>
+                    
+                                    <p>
+                     <a href="mailto:de@basecreate.com">de@basecreate.com</a>     
+                  </p>
+                    
+               </div>
+                              <div class="single-address-list toggle-fade " data-location="NZ">
+                  <p><strong>BaseCreate</strong></p>
+                  <p class="address">
+                                          <span>Base Creative, 43 Appleton Lane, 3287</span>      
+                                          <span>Hamilton</span>      
+                                          <span>New Zealand</span>      
+                                       </p>
+                                    <p class="phone">
+                                                               <a href="tel:+64297710777">+642 9771 0777</a>   
+                        
+                                       </p>
+                    
+                                    <p>
+                     <a href="mailto:nz@basecreate.com">nz@basecreate.com</a>     
+                  </p>
+                    
+               </div>
+                           </div>
+         </div>
+     <!--   <div class="flex-col">
+            <div class="btn-row">
+                              <div class="btn btn-filter btn-negative active" data-location-filter="HK">
+                  <div class="btn-click">
+                     <div class="btn-fill btn-original-fill"></div>
+                     <div class="btn-text btn-original-text">
+                        <span>HK</span>
+                     </div>
+                     <div class="btn-fill btn-duplicate-fill"></div>
+                     <div class="btn-text btn-duplicate-text">
+                        <span>HK</span>
+                     </div>
+                  </div>
+               </div>
+                              <div class="btn btn-filter btn-negative " data-location-filter="FR">
+                  <div class="btn-click">
+                     <div class="btn-fill btn-original-fill"></div>
+                     <div class="btn-text btn-original-text">
+                        <span>FR</span>
+                     </div>
+                     <div class="btn-fill btn-duplicate-fill"></div>
+                     <div class="btn-text btn-duplicate-text">
+                        <span>FR</span>
+                     </div>
+                  </div>
+               </div>
+                              <div class="btn btn-filter btn-negative " data-location-filter="DE">
+                  <div class="btn-click">
+                     <div class="btn-fill btn-original-fill"></div>
+                     <div class="btn-text btn-original-text">
+                        <span>DE</span>
+                     </div>
+                     <div class="btn-fill btn-duplicate-fill"></div>
+                     <div class="btn-text btn-duplicate-text">
+                        <span>DE</span>
+                     </div>
+                  </div>
+               </div>
+                              <div class="btn btn-filter btn-negative " data-location-filter="NZ">
+                  <div class="btn-click">
+                     <div class="btn-fill btn-original-fill"></div>
+                     <div class="btn-text btn-original-text">
+                        <span>NZ</span>
+                     </div>
+                     <div class="btn-fill btn-duplicate-fill"></div>
+                     <div class="btn-text btn-duplicate-text">
+                        <span>NZ</span>
+                     </div>
+                  </div>
+               </div>
+                           </div>
+         </div> -->
+      </div>
+   </div>
+</section>
+                  <footer class="section theme-dark footer data-change-color-section" data-scroll-section>
+                     <div class="footer-overflow">
+                        <div class="container">
+                                                      <div class="row row-marquee">
+                              <div class="flex-col">
+                                 <div class="marquee">
+                                    <div class="marquee-inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="4">
+                                       <ul class="marquee-inner-wrap">
+                                                                                    <li class="single-marquee-part"><h3 class="big">Dare to change <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.57144 10.4286V10.4286C7.77616 10.4286 12.0087 6.20471 12 1V1V1C11.9913 6.20471 16.2239 10.4286 21.4286 10.4286V10.4286" stroke="black" stroke-width="2"/>
+<path d="M12 23V1" stroke="black" stroke-width="2"/>
+</svg>
+</h3></li>
+                                          <li class="single-marquee-part"><h3 class="big">Dare to change <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.57144 10.4286V10.4286C7.77616 10.4286 12.0087 6.20471 12 1V1V1C11.9913 6.20471 16.2239 10.4286 21.4286 10.4286V10.4286" stroke="black" stroke-width="2"/>
+<path d="M12 23V1" stroke="black" stroke-width="2"/>
+</svg>
+</h3></li>
+                                          <li class="single-marquee-part"><h3 class="big">Dare to change <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.57144 10.4286V10.4286C7.77616 10.4286 12.0087 6.20471 12 1V1V1C11.9913 6.20471 16.2239 10.4286 21.4286 10.4286V10.4286" stroke="black" stroke-width="2"/>
+<path d="M12 23V1" stroke="black" stroke-width="2"/>
+</svg>
+</h3></li>
+                                          <li class="single-marquee-part"><h3 class="big">Dare to change <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.57144 10.4286V10.4286C7.77616 10.4286 12.0087 6.20471 12 1V1V1C11.9913 6.20471 16.2239 10.4286 21.4286 10.4286V10.4286" stroke="black" stroke-width="2"/>
+<path d="M12 23V1" stroke="black" stroke-width="2"/>
+</svg>
+</h3></li>
+                                                                                 </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                         </div>
+                           <div class="row-wrap" data-scroll data-scroll-speed="-6" data-scroll-position="bottom" data-scroll-offset="-50%, 0%">
+                              <div class="overlay overlay-gradient" data-scroll data-scroll-speed="9" data-scroll-position="bottom" data-scroll-offset="-50%, 0%">
+                                 <div class="overlay overlay-gradient-inner"></div>
+                              </div> 
+                              <div class="row row-logo">
+                                 <div class="flex-col">
+                                    <a href="contact.html" data-cursor-text="Get in touch" data-background-color="var(--color-primary)" class="logo">
+                                       <div class="overlay">
+                                       
+                             <svg width="471.3" height="70.1" viewBox="0 0 471.3 70.1" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 215 12.5 L 250 12.5 L 250 0 L 215 0 C 195.7 0 180 15.7 180 35 C 180 54.3 195.7 70 215 70 L 250 70 L 250 31.6 L 215 31.6 L 215 44.1 L 237.5 44.1 L 237.5 57.5 L 215 57.5 C 202.6 57.5 192.5 47.4 192.5 35 C 192.5 22.6 202.6 12.5 215 12.5 Z M 135 0 L 135 25.4 L 90 25.4 L 90 0 L 77.5 0 L 77.5 70 L 90 70 L 90 37.9 L 135 37.9 L 135 70 L 147.5 70 L 147.5 0 L 135 0 Z M 403.8 57.5 L 374.5 0 L 345.2 57.5 L 338.8 70 L 352.8 70 L 359.2 57.5 L 374.5 27.5 L 389.8 57.5 L 396.2 70 L 410.2 70 L 403.8 57.5 Z M 282.5 0.1 L 282.5 12.6 L 311.2 12.6 L 311.2 70.1 L 323.7 70.1 L 323.7 12.6 L 352.4 12.6 L 352.4 0.1 L 282.5 0.1 Z M 44.1 0 L 0 0 L 0 70 L 47.7 70 C 60 70 70 60 70 47.7 A 22.157 22.157 0 0 0 65.19 33.878 A 22.666 22.666 0 0 0 60 29.1 A 18.383 18.383 0 0 0 62.895 20.918 A 19.368 19.368 0 0 0 63 18.9 C 63 8.5 54.5 0 44.1 0 Z M 426.1 49 L 426.1 0.1 L 413.6 0.1 L 413.6 47.8 C 413.6 51.3 414.4 54.6 415.9 57.6 C 418 62 421.6 65.6 426 67.8 C 429 69.3 432.3 70.1 435.8 70.1 L 471.3 70.1 L 471.3 57.6 L 434.6 57.5 C 430.2 56.9 426.7 53.4 426.1 49 Z M 170 70 L 170 0 L 157.5 0 L 157.5 70 L 170 70 Z M 272.5 70 L 272.5 0 L 260 0 L 260 70 L 272.5 70 Z M 47.7 57.5 L 12.5 57.5 L 12.5 37.8 L 47.7 37.8 C 53.1 37.8 57.5 42.2 57.5 47.6 C 57.5 53 53.1 57.4 47.7 57.4 L 47.7 57.5 Z M 12.5 12.5 L 44.2 12.5 C 47.7 12.5 50.6 15.4 50.6 18.9 C 50.6 22.4 47.7 25.3 44.2 25.3 L 12.5 25.3 L 12.5 12.5 Z" vector-effect="non-scaling-stroke"/></g></svg>    
+                                       
+                                       </div>
+                                       </a>                                 </div>
+                                                                  <div class="flex-col mobile">
+                                    <div class="btn btn-negative">
+                                       <a href="contact.html" class="btn-click">
+                                          <div class="btn-fill btn-original-fill"></div>
+                                          <div class="btn-text btn-original-text">
+                                             <span>Get in touch</span>
+                                          </div>
+                                          <div class="btn-fill btn-duplicate-fill"></div>
+                                          <div class="btn-text btn-duplicate-text">
+                                             <span>Get in touch</span>
+                                          </div>
+                                       </a>
+                                    </div>
+                                 </div>
+                                                               </div>
+                                                            <div class="row row-links">
+                                 <div class="stripe"></div>
+                                 <div class="flex-col">
+                                   <footer class="section theme-dark footer data-change-color-section" data-scroll-section>
+                     <div class="footer-overflow">
+                        <div class="container">
+                                                      <div class="row row-marquee">
+                              <div class="flex-col">
+                                 <div class="marquee">
+                                    <div class="marquee-inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="4">
+                                       <ul class="marquee-inner-wrap">
+                                                                                    <li class="single-marquee-part"><h3 class="big">Dare to change <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.57144 10.4286V10.4286C7.77616 10.4286 12.0087 6.20471 12 1V1V1C11.9913 6.20471 16.2239 10.4286 21.4286 10.4286V10.4286" stroke="black" stroke-width="2"/>
+<path d="M12 23V1" stroke="black" stroke-width="2"/>
+</svg>
+</h3></li>
+                                          <li class="single-marquee-part"><h3 class="big">Dare to change <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.57144 10.4286V10.4286C7.77616 10.4286 12.0087 6.20471 12 1V1V1C11.9913 6.20471 16.2239 10.4286 21.4286 10.4286V10.4286" stroke="black" stroke-width="2"/>
+<path d="M12 23V1" stroke="black" stroke-width="2"/>
+</svg>
+</h3></li>
+                                          <li class="single-marquee-part"><h3 class="big">Dare to change <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.57144 10.4286V10.4286C7.77616 10.4286 12.0087 6.20471 12 1V1V1C11.9913 6.20471 16.2239 10.4286 21.4286 10.4286V10.4286" stroke="black" stroke-width="2"/>
+<path d="M12 23V1" stroke="black" stroke-width="2"/>
+</svg>
+</h3></li>
+                                          <li class="single-marquee-part"><h3 class="big">Dare to change <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.57144 10.4286V10.4286C7.77616 10.4286 12.0087 6.20471 12 1V1V1C11.9913 6.20471 16.2239 10.4286 21.4286 10.4286V10.4286" stroke="black" stroke-width="2"/>
+<path d="M12 23V1" stroke="black" stroke-width="2"/>
+</svg>
+</h3></li>
+                                                                                 </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                         </div>
+                           <div class="row-wrap" data-scroll data-scroll-speed="-6" data-scroll-position="bottom" data-scroll-offset="-50%, 0%">
+                              <div class="overlay overlay-gradient" data-scroll data-scroll-speed="9" data-scroll-position="bottom" data-scroll-offset="-50%, 0%">
+                                 <div class="overlay overlay-gradient-inner"></div>
+                              </div> 
+                              <div class="row row-logo">
+                                 <div class="flex-col">
+                                    <a href="contact.html" data-cursor-text="Get in touch" data-background-color="var(--color-primary)" class="logo">
+                                       <div class="overlay">
+                                       
+                             <svg width="471.3" height="70.1" viewBox="0 0 471.3 70.1" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000"><path d="M 215 12.5 L 250 12.5 L 250 0 L 215 0 C 195.7 0 180 15.7 180 35 C 180 54.3 195.7 70 215 70 L 250 70 L 250 31.6 L 215 31.6 L 215 44.1 L 237.5 44.1 L 237.5 57.5 L 215 57.5 C 202.6 57.5 192.5 47.4 192.5 35 C 192.5 22.6 202.6 12.5 215 12.5 Z M 135 0 L 135 25.4 L 90 25.4 L 90 0 L 77.5 0 L 77.5 70 L 90 70 L 90 37.9 L 135 37.9 L 135 70 L 147.5 70 L 147.5 0 L 135 0 Z M 403.8 57.5 L 374.5 0 L 345.2 57.5 L 338.8 70 L 352.8 70 L 359.2 57.5 L 374.5 27.5 L 389.8 57.5 L 396.2 70 L 410.2 70 L 403.8 57.5 Z M 282.5 0.1 L 282.5 12.6 L 311.2 12.6 L 311.2 70.1 L 323.7 70.1 L 323.7 12.6 L 352.4 12.6 L 352.4 0.1 L 282.5 0.1 Z M 44.1 0 L 0 0 L 0 70 L 47.7 70 C 60 70 70 60 70 47.7 A 22.157 22.157 0 0 0 65.19 33.878 A 22.666 22.666 0 0 0 60 29.1 A 18.383 18.383 0 0 0 62.895 20.918 A 19.368 19.368 0 0 0 63 18.9 C 63 8.5 54.5 0 44.1 0 Z M 426.1 49 L 426.1 0.1 L 413.6 0.1 L 413.6 47.8 C 413.6 51.3 414.4 54.6 415.9 57.6 C 418 62 421.6 65.6 426 67.8 C 429 69.3 432.3 70.1 435.8 70.1 L 471.3 70.1 L 471.3 57.6 L 434.6 57.5 C 430.2 56.9 426.7 53.4 426.1 49 Z M 170 70 L 170 0 L 157.5 0 L 157.5 70 L 170 70 Z M 272.5 70 L 272.5 0 L 260 0 L 260 70 L 272.5 70 Z M 47.7 57.5 L 12.5 57.5 L 12.5 37.8 L 47.7 37.8 C 53.1 37.8 57.5 42.2 57.5 47.6 C 57.5 53 53.1 57.4 47.7 57.4 L 47.7 57.5 Z M 12.5 12.5 L 44.2 12.5 C 47.7 12.5 50.6 15.4 50.6 18.9 C 50.6 22.4 47.7 25.3 44.2 25.3 L 12.5 25.3 L 12.5 12.5 Z" vector-effect="non-scaling-stroke"/></g></svg>    
+                                       
+                                       </div>
+                                       </a>                                 </div>
+                                                                  <div class="flex-col mobile">
+                                    <div class="btn btn-negative">
+                                       <a href="contact.html" class="btn-click">
+                                          <div class="btn-fill btn-original-fill"></div>
+                                          <div class="btn-text btn-original-text">
+                                             <span>Get in touch</span>
+                                          </div>
+                                          <div class="btn-fill btn-duplicate-fill"></div>
+                                          <div class="btn-text btn-duplicate-text">
+                                             <span>Get in touch</span>
+                                          </div>
+                                       </a>
+                                    </div>
+                                 </div>
+                                                               </div>
+                                                            <div class="row row-links">
+                                 <div class="stripe"></div>
+                                 <div class="flex-col">
+                                      <p><a href="https://www.facebook.com/profile.php?id=61555612232776&mibextid=ZbWKwL" target="_blank">Facebook</a></p>                                    <p><a href="https://www.instagram.com/bhigital?igsh=bTU2YnBhamtjYWUy" target="_blank">Instagram</a></p>                                                                 </div>
+                              
+                                 <div class="flex-col">
+                                                                        <p><a href="privacy-cookie-policy.html">Privacy & Cookie Policy</a></p>
+                                                                     </div>
+                                 <div class="flex-col">
+                                    <p>BaseCreate © 2024</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        _linkedin_partner_id = "212307";
+                        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+                        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+                        </script><script type="text/javascript">
+                        (function(l) {
+                        if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+                        window.lintrk.q=[]}
+                        var s = document.getElementsByTagName("script")[0];
+                        var b = document.createElement("script");
+                        b.type = "text/javascript";b.async = true;
+                        b.src = "../../snap.licdn.com/li.lms-analytics/insight.min.js";
+                        s.parentNode.insertBefore(b, s);})(window.lintrk);
+                     </script>
+                     <noscript>
+                        <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=212307&amp;fmt=gif" />
+                     </noscript>
+                </footer>
+                                                                     </div>
+                              
+                                 <div class="flex-col">
+                                                                        <p><a href="privacy-cookie-policy.html">Privacy & Cookie Policy</a></p>
+                                                                     </div>
+                                 <div class="flex-col">
+                                    <p>BaseCreate © 2024</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        _linkedin_partner_id = "212307";
+                        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+                        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+                        </script><script type="text/javascript">
+                        (function(l) {
+                        if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+                        window.lintrk.q=[]}
+                        var s = document.getElementsByTagName("script")[0];
+                        var b = document.createElement("script");
+                        b.type = "text/javascript";b.async = true;
+                        b.src = "../../snap.licdn.com/li.lms-analytics/insight.min.js";
+                        s.parentNode.insertBefore(b, s);})(window.lintrk);
+                     </script>
+                     <noscript>
+                        <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=212307&amp;fmt=gif" />
+                     </noscript>
+                </footer>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+<div class="containerl">
+  <div id="div1"><h2>
+  <span>b</span>
+  <span>h</span>
+  <span>i</span>
+  <span>g</span>
+  <span>i</span>
+  <span>t</span>
+  <span>a</span>
+  <span>l</span>
+</h2></div>
+  <div id="div2"><h2>B</h2></div>
+  <svg id="scrollDisappearSvg" class="scrollDisappear" viewBox="0 0 24 24">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM9 9h6v6H9z"/>
+</svg>
+
+  <svg id="scrollDisappearSvg1" class="scrollDisappear" viewBox="0 0 24 24">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM9 9h6v6H9z"/>
+</svg>
+
+
+  <svg id="scrollDisappearSvg2" class="scrollDisappear" viewBox="0 0 24 24">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM9 9h6v6H9z"/>
+</svg>
+
+</div>
+
+<script>
+  window.addEventListener('scroll', function() {
+    var div1 = document.getElementById('div1');
+    var div2 = document.getElementById('div2');
+    
+    if (window.scrollY >= 10) {
+      div1.style.display = 'none';
+      div2.style.display = 'block';
+    } else {
+      div1.style.display = 'block';
+      div2.style.display = 'none';
+    }
+  });
+</script>
+
+
+
+<script>
+  window.addEventListener('scroll', function() {
+    var bh = document.getElementById('scrollDisappearSvg');
+    
+    
+    if (window.scrollY >= 10) {
+      bh.style.display = 'none';
+      
+    } else {
+      bh.style.display = 'block';
+      
+    }
+  });
+</script>
+
+
+<script> window.addEventListener('scroll', function() {
+  var svg1 = document.getElementById('scrollDisappearSvg1');
+  var svg2 = document.getElementById('scrollDisappearSvg2');
+  var svg3 = document.getElementById('scrollDisappearSvg3');
+  var svg4 = document.getElementById('scrollDisappearSvg4');
+  var svg5 = document.getElementById('scrollDisappearSvg5');
+  var svg6 = document.getElementById('scrollDisappearSvg6');
+  var svg7 = document.getElementById('scrollDisappearSvg7');
+
+  if (window.scrollY >= 10) {
+    svg1.style.display = 'none';
+    svg2.style.display = 'none';
+    svg3.style.display = 'none';
+    svg4.style.display = 'none';
+    svg5.style.display = 'none';
+    svg6.style.display = 'none';
+    svg7.style.display = 'none';
+  } else {
+    svg1.style.display = 'inline-block';
+    svg2.style.display = 'inline-block';
+    svg3.style.display = 'inline-block';
+    svg4.style.display = 'inline-block';
+    svg5.style.display = 'inline-block';
+    svg6.style.display = 'inline-block';
+    svg7.style.display = 'inline-block';
+  }
+});</script> 
+</body>
+</html>
+

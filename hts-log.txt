@@ -1,0 +1,37 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 03 May 2024 21:39:06 at https://www.basecreate.com/en +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.basecreate.com/en -O1 "C:\Users\ACER\Desktop\BHIGITAL PROJECTS\https___www.basecreate.com_en" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:43:12	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.basecreate.com/en)
+21:20:16	Error: 	"Not Found" (404) at link https://www.basecreate.com/en/work/crusta (from https://www.basecreate.com/en/services)
+21:21:37	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/responsibility/1686e06476-1676519493/responsibility_page_ocean.jpg (from https://www.basecreate.com/en/responsibility)
+21:21:38	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/responsibility/93b19a2086-1711424532/design_true_animate_1080x900.jpg (from https://www.basecreate.com/en/responsibility)
+21:23:04	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/tencel/04093d2f04-1676519496/tencel-case-study-49-192x-q72.jpg (from https://www.basecreate.com/en/work/tencel)
+21:23:58	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.basecreate.com/en/industries/fashion-textiles/?cat=textiles (from https://www.basecreate.com/en/industries)
+21:23:59	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.basecreate.com/en/industries/manufacturing-industrial/?cat=chemicals (from https://www.basecreate.com/en/industries)
+21:24:39	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/es/work/sela-skincare (from https://www.basecreate.com/en/work/sela-skincare)
+21:24:59	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/the-mod/2679424b49-1676519520/the-mod-property-brand-creation-brand-identity-brand-materials-namecard-921x921-basecreate-2.jpg (from https://www.basecreate.com/en/work/the-mod)
+21:25:08	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/hotel-jen/a7e4905582-1676519521/hotel-jen-website-refresh-basecreate-strategic_motion_1.mp4 (from https://www.basecreate.com/en/work/hotel-jen)
+21:25:09	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/hotel-jen/db78f154aa-1676519521/hotel-jen-website-refresh-basecreate-web-social-page_2.mp4 (from https://www.basecreate.com/en/work/hotel-jen)
+21:25:09	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/hotel-jen/dd5721d7bc-1676519521/hotel_jen_05.jpg (from https://www.basecreate.com/en/work/hotel-jen)
+21:25:12	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.basecreate.com/media/pages/work/hotel-jen/dd5721d7bc-1676519521/hotel-jen-05-192x-q72.jpg (from https://www.basecreate.com/en/work/hotel-jen)
+21:25:42	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/chateau-de-sours/0239bad451-1676519494/chateau-de-sours-wine-and-spirits-brand-communication-basecreate-web2.mp4 (from https://www.basecreate.com/en/work/chateau-de-sours)
+21:25:46	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/chateau-de-sours/405c35e359-1676519494/chateau-de-sours-wine-and-spirits-brand-communication-basecreate-web3.mp4 (from https://www.basecreate.com/en/work/chateau-de-sours)
+21:25:46	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/chateau-de-sours/5eaf71a207-1676519495/chateau-de-sours-wine-and-spirits-brand-creative-basecreate.jpg (from https://www.basecreate.com/en/work/chateau-de-sours)
+21:25:53	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/the-whitney/2bfea8d4a4-1676519497/texwood-thewhitney-main19x12-2.mp4 (from https://www.basecreate.com/en/work/the-whitney)
+21:25:55	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/two-hyde-park-square/39d09d6d9d-1676519498/2hps-19x12-basecreate-e-192x-q72.jpg (from https://www.basecreate.com/en/work/two-hyde-park-square)
+21:26:12	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/prezlock/467d92e551-1676519506/prezlock-consumer-electronics-brand-communication-basecreate.jpg (from https://www.basecreate.com/en/work/prezlock)
+21:26:21	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/international-christian-school/c60d3abf37-1676519510/internatinoal-christian-school-education-marketing-communications-basecreate.jpg (from https://www.basecreate.com/en/work/international-christian-school)
+21:26:24	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.basecreate.com/media/pages/work/hibiki-no-mori/0c1cb7215c-1676519510/hibiki-no-mori-leisure-brand-activation-country-club-basecreate-921c.jpg (from https://www.basecreate.com/en/work/hibiki-no-mori)
+21:26:59	Error: 	"Not Found" (404) at link https://www.basecreate.com/es/work/crusta (from https://www.basecreate.com/es/services)
+21:27:23	Error: 	"Not Found" (404) at link https://www.basecreate.com/zh/work/crusta (from https://www.basecreate.com/zh/services)
+21:27:53	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.basecreate.com/zh/industries/manufacturing-industrial (from https://www.basecreate.com/en/industries/manufacturing-industrial)
+21:33:41	Error: 	"Error when decompressing" (-1) at link https://www.basecreate.com/zh/industries/manufacturing-industrial (from https://www.basecreate.com/en/industries/manufacturing-industrial)
+21:33:41	Error: 	Unable to save file C:/Users/ACER/Desktop/BHIGITAL PROJECTS/https___www.basecreate.com_en/www.basecreate.com/zh/industries/manufacturing-industrial: Permission denied
+
+HTTrack Website Copier/3.49-2 mirror complete in 23 hours 54 minutes 35 seconds : 1661 links scanned, 1635 files written (391123108 bytes overall) [335189465 bytes received at 3894 bytes/sec], 62570571 bytes transferred using HTTP compression in 471 files, ratio 9%, 2.6 requests per connection
+(6 errors, 20 warnings, 0 messages)
